@@ -4,7 +4,7 @@ import Topbar from "./topbar";
 
 function Header() {
   return (
-    <nav className="sticky top-0 z-[9999] w-full flex-row justify-between items-end flex h-16 bg-primary gap-4 p-4 lg:pr-8">
+    <nav className="fixed top-0 left-0 z-[9999] w-full flex-row justify-between items-end flex h-16 bg-primary gap-4 p-4 lg:pr-8">
       <span className="text-2xl md:text-3xl lg:text-4xl capitalize font-semibold">
         <span className="text-black">protfo</span>
         <span className="text-white">lio</span>

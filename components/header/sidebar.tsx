@@ -10,7 +10,7 @@ function Sidebar() {
     <>
       <button
         onClick={() => setIsOpen((p) => !p)}
-        className="absolute size-8 right-4 z-[9999] top-4 flex flex-col justify-around md:hidden"
+        className="absolute fix-btn top-4 flex flex-col justify-around md:hidden"
       >
         <div
           className={`${
