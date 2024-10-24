@@ -5,7 +5,7 @@ import Link from "next/link";
 type CardProps = CardData;
 function Card({ title, content, tags, img }: CardProps) {
   return (
-    <div className="flex-res gap-small justify-between">
+    <div className="flex-res gap-small justify-between md:odd:flex-row-reverse">
       <div className="grid grid-cols-12 grid-rows-8 p-4 bg-primary-2/10 rounded-md md:w-1/2">
         <div className="col-start-1 col-span-full row-start-1 row-span-11 flex items-center">
           <img

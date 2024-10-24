@@ -9,11 +9,11 @@ export const cardRef: CardData[] = [
     tags: [{ framework: "angular", color: "chip-red" }],
     img: {
       desktop: {
-        path: "./asset/golden/golden1.png",
+        path: "/golden/golden1.png",
         alt: "destop placeholder img",
       },
       mobile: {
-        path: "./asset/golden/golden2.png",
+        path: "/golden/golden2.png",
         alt: "mobile placholder img",
       },
     },
@@ -29,10 +29,10 @@ export const cardRef: CardData[] = [
     ],
     img: {
       desktop: {
-        path: "./asset/ecommerce/ecommerce1.png",
+        path: "/ecommerce/ecommerce1.png",
         alt: "destop placeholder img",
       },
-      mobile: { path: "./asset/ecommerce/ecommerce2.png", alt: "" },
+      mobile: { path: "/ecommerce/ecommerce2.png", alt: "" },
     },
   },
   {
@@ -46,10 +46,10 @@ export const cardRef: CardData[] = [
     ],
     img: {
       desktop: {
-        path: "./asset/backoffice/backoffice1.png",
+        path: "/backoffice/backoffice1.png",
         alt: "destop placeholder img",
       },
-      mobile: { path: "./asset/backoffice/backoffice2.png", alt: "" },
+      mobile: { path: "/backoffice/backoffice2.png", alt: "" },
     },
   },
 ] as const;

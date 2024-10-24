@@ -1,3 +1,4 @@
+import Spline from "@splinetool/react-spline";
 import React from "react";
 
 function About() {
@@ -48,16 +49,10 @@ function About() {
           </div>
         </div>
       </div>
-      {/* <!--spline content-->
-  <div className="hidden max-w-screen-xl aspect-[16/3] sm:block">
-    <script
-      type="module"
-      src="https://unpkg.com/@splinetool/viewer@1.9.26/build/spline-viewer.js"
-    ></script>
-    <spline-viewer
-      url="https://prod.spline.design/e2eNCo-sXDERqEaz/scene.splinecode"
-    ></spline-viewer>
-  </div> */}
+
+      <div className="hidden max-w-screen-xl aspect-[16/3] sm:block">
+        <Spline scene="https://prod.spline.design/e2eNCo-sXDERqEaz/scene.splinecode" />
+      </div>
     </section>
   );
 }

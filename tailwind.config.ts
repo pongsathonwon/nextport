@@ -44,6 +44,7 @@ const config: Config = {
         next: "right 1s infinite",
       },
       backgroundImage: {
+        avatar: "url(../public/avatar.jpg)",
         fil: "linear-gradient(to top, rgba(0,0,0,.2), transparent)",
         g1: "conic-gradient(var(--color-gradient-2),var(--color-gradient-1),var(--color-gradient-2))",
         g2: "conic-gradient(var(--color-gradient-1),var(--color-gradient-3),var(--color-gradient-1))",

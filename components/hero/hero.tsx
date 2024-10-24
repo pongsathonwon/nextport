@@ -14,11 +14,14 @@ function Hero() {
           I'm a software developer focusing on website based in Bangkok
           Thailand.
         </p>
-        <div>
-          <button className="rounded-md bg-primary-1 text-white text-sm py-1 px-3 mt-8 md:text-base">
-            resume
-          </button>
-        </div>
+
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          className="rounded-md bg-primary-1 text-white text-sm py-1 px-3 mt-8 md:text-base"
+        >
+          resume
+        </a>
       </div>
 
       <div className="filter blur-lg -z-20 col-start-1 rounded-full row-start-1 col-span-2 row-span-2 bg-g1 animate-spin-slow"></div>
