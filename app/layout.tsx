@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import ModeBtn from "@/components/modeBtn";
+import ThemeContextProvider from "@/contexts/theme";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -39,10 +40,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header />
-        {children}
-        <ModeBtn />
-        <Footer />
+        <ThemeContextProvider>
+          <Header />
+          {children}
+          <ModeBtn />
+          <Footer />
+        </ThemeContextProvider>
       </body>
     </html>
   );

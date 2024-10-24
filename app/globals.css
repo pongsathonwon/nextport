@@ -10,16 +10,14 @@
   --color-gradient-3: #f0abfc;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-primary-1: 132 120 190;
-    --color-primary-2: 178 169 213;
-    --color-secondary: 37 34 35;
-    --color-neutral: 240 240 240;
-    --color-gradient-1: #474259;
-    --color-gradient-2: #3a495a;
-    --color-gradient-3: #56415a;
-  }
+:root.dark {
+  --color-primary-1: 132 120 190;
+  --color-primary-2: 178 169 213;
+  --color-secondary: 37 34 35;
+  --color-neutral: 240 240 240;
+  --color-gradient-1: #474259;
+  --color-gradient-2: #3a495a;
+  --color-gradient-3: #56415a;
 }
 
 body {
