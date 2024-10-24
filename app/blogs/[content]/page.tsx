@@ -5,7 +5,11 @@ type BlogsProps = {
 };
 
 function Blogs({ params }: BlogsProps) {
-  return <div>Blogs {params.content}</div>;
+  return (
+    <main className="max-w-screen-xl mx-auto border-x border-neutral/10 mt-16">
+      content
+    </main>
+  );
 }
 
 export default Blogs;

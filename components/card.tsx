@@ -3,7 +3,7 @@ import React from "react";
 import Chip from "./chip";
 import Link from "next/link";
 type CardProps = CardData;
-function Card({ title, content, tags, img }: CardProps) {
+function Card({ id, title, content, tags, img }: CardProps) {
   return (
     <div className="flex-res gap-small justify-between md:odd:flex-row-reverse">
       <div className="grid grid-cols-12 grid-rows-8 p-4 bg-primary-2/10 rounded-md md:w-1/2">
@@ -26,7 +26,7 @@ function Card({ title, content, tags, img }: CardProps) {
         <div className="h-full border-bot hover:border-none">
           <Link
             className="rounded-md p-4 border-none h-full flex flex-col hover:bg-primary-2/10"
-            href={`/blogs/${title}`}
+            href={`/blogs/${id}`}
           >
             <h4>{title}</h4>
             <p className="mt-2 mb-4">{content} Click to see more.</p>
