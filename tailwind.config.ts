@@ -43,6 +43,13 @@ const config: Config = {
         "pulse-slow": "pulse 5s linear infinite",
         next: "right 1s infinite",
       },
+      backgroundImage: {
+        fil: "linear-gradient(to top, rgba(0,0,0,.2), transparent)",
+        g1: "conic-gradient(var(--color-gradient-2),var(--color-gradient-1),var(--color-gradient-2))",
+        g2: "conic-gradient(var(--color-gradient-1),var(--color-gradient-3),var(--color-gradient-1))",
+        g3: "conic-gradient(var(--color-gradient-1),var(--color-gradient-3),var(--color-gradient-1),var(--color-gradient-2),var(--color-gradient-1))",
+        g4: "conic-gradient(var(--color-gradient-1),var(--color-gradient-3),var(--color-gradient-1),var(--color-gradient-2),var(--color-gradient-1))",
+      },
     },
   },
   plugins: [],
